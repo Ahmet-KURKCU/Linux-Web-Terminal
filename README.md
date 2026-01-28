@@ -100,6 +100,26 @@ cd frontend
 npm install
 npm run dev
 ```
+#### 4️⃣ IP Adresi Yapılandırması (VDS + Windows)
+Bu projede frontend ve backend farklı makinelerde çalışacak şekilde tasarlanmıştır.
+- Backend: Linux tabanlı VDS / fiziksel sunucu
+- Frontend: Windows (veya macOS) üzerinde çalışan istemci
+
+Bu nedenle **localhost** kullanımı geçerli değildir.
+Frontend tarafında Socket.IO bağlantısı, **backend’in gerçek IP adresi** üzerinden yapılmalıdır.
+Örnek bağlantı kodu:
+```bash
+io("http://VDS_IP_ADRESI:3000")
+```
+![alt text](image.png)
+
+Projeyi kendi ortamınızda çalıştırabilmek için:
+- Backend’in çalıştığı VDS’in public IP adresini öğrenin
+- Frontend kodunda bulunan Socket.IO bağlantı adresini bu IP ile değiştirin
+- Backend servisinin belirtilen port üzerinden dışarıya açık olduğundan emin olun
+
+Aksi halde frontend, backend servisine bağlanamaz.
+
 ### 🔒 Güvenlik Notu
 
 Bu proje eğitim ve portföy amaçlı geliştirilmiştir.
@@ -196,6 +216,25 @@ cd frontend
 npm install
 npm run dev
 ```
+#### 4️⃣ IP Address Configuration (VDS + Windows)
+This project is designed to run with the frontend and backend on separate machines.
+- Backend: Linux-based VDS / physical server
+- Frontend: Windows (or macOS) client machine
+
+For this reason, using localhost is not applicable.
+The frontend must connect to the backend using the public IP address of the VDS via Socket.IO.
+Example connection:
+```bash
+io("http://VDS_IP_ADRESI:3000")
+```
+![alt text](image.png)
+
+To run the project in your own environment:
+- Obtain the public IP address of the VDS where the backend is running
+- Replace the Socket.IO connection address in the frontend with this IP
+- Make sure the backend service port is accessible from outside the server
+
+If this configuration is not correct, the frontend will not be able to connect to the backend.
 
 ### 🔒 Security Notice
 
