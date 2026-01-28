@@ -25,7 +25,7 @@ io.on('connection', (socket) => {
             console.log("Container oluşturuluyor...");
             // Burada daha önce build ettiğin imaj adını kullanacağız
             container = await docker.createContainer({
-                Image: 'kali-linux', 
+                Image: 'kalilinux/kali-rolling', 
                 Cmd: ['/bin/bash'],
                 Tty: true,
                 OpenStdin: true,
