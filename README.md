@@ -1,8 +1,8 @@
 # 🚀 Linux Web Terminal (Dockerized)
 
 🌍 **Language / Dil**
-- [🇹🇷 Türkçe](#-Türkçe)
-- [🇬🇧 English](#-English)
+- [🇹🇷 Türkçe](##-Türkçe)
+- [🇬🇧 English](##-English)
 
 ---
 ## Türkçe
