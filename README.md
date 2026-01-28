@@ -5,6 +5,9 @@
 - [🇬🇧 English](#-english)
 
 ---
+![Proje Görünümü](./assets/image1.png)
+![Proje Görünümü](./assets/image2.png)
+---
 ## Türkçe
 
 Bu proje, tarayıcı üzerinden **gerçek ve izole bir Kali Linux** terminaline erişim sağlayan
