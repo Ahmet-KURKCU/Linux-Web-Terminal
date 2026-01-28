@@ -111,7 +111,7 @@ Frontend tarafında Socket.IO bağlantısı, **backend’in gerçek IP adresi** 
 ```bash
 io("http://VDS_IP_ADRESI:3000")
 ```
-![alt text](image.png)
+![alt text](assets/image.png)
 
 Projeyi kendi ortamınızda çalıştırabilmek için:
 - Backend’in çalıştığı VDS’in public IP adresini öğrenin
@@ -227,7 +227,7 @@ Example connection:
 ```bash
 io("http://VDS_IP_ADRESI:3000")
 ```
-![alt text](image.png)
+![alt text](assets/image.png)
 
 To run the project in your own environment:
 - Obtain the public IP address of the VDS where the backend is running
