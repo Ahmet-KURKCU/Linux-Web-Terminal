@@ -1,15 +1,14 @@
+<a name="readme-top"></a>
+
+<div align="center">
+
+[![English](https://img.shields.io/badge/lang-en-blue)](#english) [![Türkçe](https://img.shields.io/badge/lang-tr-red)](#turkish)
+
+</div>
+---
+
+<a name="turkish"></a>
 # 🚀 Linux Web Terminal (Dockerized)
-
-🌍 **Language / Dil**
-- [🇹🇷 Türkçe](#-türkçe)
-- [🇬🇧 English](#-english)
-
----
-![Proje Görünümü](./assets/image1.png)
-![Proje Görünümü](./assets/image2.png)
----
-## Türkçe
-
 Bu proje, tarayıcı üzerinden **gerçek ve izole bir Kali Linux** terminaline erişim sağlayan
 **full-stack** bir web uygulamasıdır.
 
@@ -136,10 +135,12 @@ Production ortamında kullanılmadan önce aşağıdaki önlemlerin eklenmesi ş
 Bu proje, Web Teknolojileri ile Linux / Docker sistem programlama
 entegrasyonunu göstermek amacıyla geliştirilmiştir.
 
+[Yukarı Çık](#readme-top)
 
+---
 
-## English
-
+<a name="english"></a>
+# 🚀 Linux Web Terminal (Dockerized)
 This project is a full-stack web application that allows users to access a real, fully isolated Kali Linux terminal directly from their web browser.
 
 Unlike basic web-based terminal demos, this application does not rely on CSS or JavaScript simulations.
@@ -147,6 +148,10 @@ Instead, every user session is backed by a real Linux environment, running insid
 
 Each container is dynamically created using the Docker API, ensuring isolation and security between users.
 All terminal input and output are transmitted in real time using WebSocket technology (Socket.IO), providing a smooth and responsive terminal experience similar to a native SSH session.
+
+![Project Status](https://img.shields.io/badge/status-active-success)
+![License](https://img.shields.io/badge/license-MIT-blue)
+![Tech](https://img.shields.io/badge/tech-React%20%7C%20Node.js%20%7C%20Docker-blueviolet)
 
 ### 🏗️ Architecture Overview
 
@@ -253,3 +258,14 @@ Before deploying it in a production environment, it is strongly recommended to i
 This project was developed to demonstrate the integration of modern web technologies with Linux system programming and Docker-based containerization.
 
 It showcases how browser-based applications can securely interact with real Linux environments by combining frontend development, backend services, and container orchestration into a single, cohesive system.
+
+
+[Go to Top](#readme-top)
+
+
+
+
+
+
+
+
